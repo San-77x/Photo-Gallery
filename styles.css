@@ -45,8 +45,6 @@ header:hover {
     background: #ffffff;
     justify-content: space-between;
     border-radius: 40px;
-}
-.navbar .searchBar:hover{
     box-shadow: 1px 1px 10px 1px rgb(212, 212, 212);
 }
 .navbar .searchBar input{
@@ -56,19 +54,11 @@ header:hover {
     outline: 0;
     font-size: 20px;
     font-weight: 500;
-    color: rgb(0, 0, 0);
+    color: #4b4b4b;
 } 
 .navbar .searchBar img{
-    padding-left: 35px;
-    padding-right: 35px;
-    border-radius: 50px;
-    border: 0;
-    outline: 0;
     cursor: pointer;
-    background-color:orangered ;
+    padding-left: 40px;
     }
-.navbar .searchBar img:hover{
-    transform: scale(1.1);
-    background-color: blue;
-    }
+
 
