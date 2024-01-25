@@ -605,6 +605,11 @@ video {
   border-width: 0px;
 }
 
+.bg-silver {
+  --tw-bg-opacity: 1;
+  background-color: rgb(236 235 255 / var(--tw-bg-opacity));
+}
+
 .bg-transparent {
   background-color: transparent;
 }
@@ -612,11 +617,6 @@ video {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-silver {
-  --tw-bg-opacity: 1;
-  background-color: rgb(236 235 255 / var(--tw-bg-opacity));
 }
 
 .px-8 {
@@ -663,104 +663,6 @@ video {
 .outline-0 {
   outline-width: 0px;
 }
-
-/* 
-
-
-
-
-body{
-    background-color: rgb(255, 255, 255);
-}
-header{
-    width: 100%;
-    background-color: #ffffff;
-    position: relative;    
-}
-
-header:hover {
-    box-shadow: 1px 1px 10px 1px rgb(212, 212, 212);
-}
-
-.navbar{
-    max-width: 1300px;
-    padding: 0px 30px;
-    height: 100px;
-    margin: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-}
-.logo{
-    font-family: 'Asap', sans-serif;
-    font-size: 2em;
-    font-weight: bolder;
-    text-decoration: none;
-    letter-spacing: .2rem;
-    cursor: pointer;
-    color: #4b4b4b;
-}
-
-.navbar .searchBar {
-    width: 300px;
-    display: flex;
-    margin:auto;
-    background: #ffffff;
-    justify-content: space-between;
-    border-radius: 40px;
-    box-shadow: 1px 1px 10px 1px rgb(212, 212, 212);
-}
-.navbar .searchBar input{
-    padding-left:30px ;
-    background-color: transparent;
-    border: 0;
-    outline: 0;
-    font-size: 20px;
-    font-weight: 500;
-    color: #4b4b4b;
-} 
-.navbar .searchBar img{
-    width: 50px;
-    cursor: pointer;
-    padding-left: 40px;
-    border: 0;
-    outline: 0;
-    }
-
-
-    .row {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 0 4px;
-      }
-      
-      .column {
-        flex: 25%;
-        max-width: 25%;
-        padding: 0 4px;
-      }
-      
-      .column img {
-        margin-top: 8px;
-        vertical-align: middle;
-        width: 100%;
-      }
-      
-      @media screen and (max-width: 800px) {
-        .column {
-          flex: 50%;
-          max-width: 50%;
-        }
-      }
-      @media screen and (max-width: 600px) {
-        .column {
-          flex: 100%;
-          max-width: 100%;
-        }
-      }
-
- */
 
 .hover\:shadow-\[1px_1px_10px_1px_rgba\(212\2c 212\2c 212\)\]:hover {
   --tw-shadow: 1px 1px 10px 1px rgba(212,212,212);
