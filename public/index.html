@@ -4,18 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="/public/styles/tailwind.css" />
     <title>Pixel Paradise</title>
   </head>
-  <body class="bg-silver">
     <header
-      class="bg-silver w-full relative hover:shadow-[1px_1px_10px_1px_rgba(212,212,212)] ;"
+      class="bg-slate-100  w-full relative hover:shadow-[1px_1px_10px_1px_rgba(212,212,212)] ;"
     >
       <div class="max-w-7xl px-8 h-24 m-auto flex items-center justify-between">
         <a
           href="#"
-          class="text-4xl font-bold tracking-widest cursor-pointer text-logo"
+          class="text-4xl font-bold tracking-widest cursor-pointer font-body text-logo"
           >Pixel Paradise.</a
         >
         <div
@@ -26,26 +24,24 @@
             id="search"
             class="bg-white rounded-full w-96 m-4 pl-7 pr-4 h-10 font-medium text-logo shadow-[1px_1px_10px_1px_rgba(212,212,212)]"
             placeholder="Search Here"
-          />
-          <img
+            />
+            <button
             id="searchButton"
+            >
+
+            <img
             class="size-12 cursor-pointer border-0 outline-0"
             src="../icons/search.png"
-            alt=""
-          />
+            alt=""x
+            />
+          </button>
         </div>
       </div>
     </header>
-
-    <div id="container" class="w-4/5 grid-flow-row">
-      <div id="newDiv" class="size-100px flex-row w-100px h-150px">
-        <img id="newImg" src="./img/1.jpg" />
-        <img id="newImg" src="./img/2.jpg" />
-        <img id="newImg" src="./img/3.jpg" />
-        <img id="newImg" src="./img/4.jpg" />
-      </div>
+    <body class="bg-silver"></body>
+    <div id="container" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-7 gap-4  p-4">
+   
     </div>
-
     <script src="/dist/scripts.js"></script>
   </body>
 </html>
