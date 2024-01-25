@@ -10,7 +10,7 @@
   </head>
   <body bgcolor="white">
     <header
-      class="bg-silver w-full relative hover:shadow 1px 1px 10px 1px #6b7280;"
+      class="bg-white w-full relative hover:shadow 1px 1px 10px 1px #6b7280;"
     >
       <div class="max-w-7xl px-8 h-24 m-auto flex items-center justify-between">
         <a
@@ -19,10 +19,19 @@
           >Pixel Paradise.</a
         >
         <div
-          class="w-80 flex m-auto bg-white justify-between rounded-full shadow 1px 1px 10px 1px #6b7280"
+          class="w-72 flex m-auto bg-white justify-between rounded-full shadow 1px 1px 10px 1px #6b7280"
         >
-          <input type="text" id="searchBox" placeholder="Search Here" />
-          <img id="searchButton" src="icons/search.png" alt="" />
+          <input
+            type="text"
+            class="pl-9 bg-transparent border-0 outline-0 text-xl font-medium text-logo"
+            placeholder="Search Here"
+          />
+          <img
+            id="searchButton"
+            class="w-16 cursor-pointer pl-10 border-0 outline-0"
+            src="../icons/search.png"
+            alt=""
+          />
         </div>
       </div>
     </header>
